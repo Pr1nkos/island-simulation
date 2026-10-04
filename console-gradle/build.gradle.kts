@@ -1,5 +1,10 @@
 plugins {
     id("groovy")
+    application
+}
+
+application {
+    mainClass.set("ru.pr1nkos.Main")
 }
 
 group = "ru.pr1nkos"

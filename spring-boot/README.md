@@ -125,8 +125,8 @@ To run the simulation locally:
 
 1. Clone the repository.
 2. Configure `application.yml` and `animalCharacteristics.yml` to adjust simulation parameters if needed.
-3. Build the project using Maven: `gradlew clean install`.
-4. Run the application: `java -jar src/main/java/ru/pr1nkos/islandsimulation/IslandSimulationApplication.java`.
+3. Build the project with Gradle: `./gradlew clean build` (on Windows: `gradlew.bat clean build`).
+4. Run the application: `./gradlew bootRun`, or `java -jar build/libs/<built-jar>.jar` after the build.
 5. Access the simulation UI at `http://localhost:8080/api/island`.
 
 ---
