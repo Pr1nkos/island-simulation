@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: IslandSimulation
+island:
+    width: 10
+    height: 10
+app:
+    refreshInterval: 1000
+    initialAnimalsCount: 10
+    animalMovementJobIntervalInSeconds: 5
+    animalEatingJobIntervalInSeconds: 10
+    plantAppearJobIntervalInSeconds: 1
+    plantEatingJobIntervalInSeconds: 10
+    animalBreedingJobIntervalInSeconds: 1
+    populateIslandJobIntervalInMilliseconds: 500
